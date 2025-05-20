@@ -1,0 +1,52 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+
+# Local settings
+local_settings.py
+settings_local.py
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+.nox/
+
+# Test stuff
+.junit/
+test-results/
+
+# Migrations (optional, if generated files shouldn't be tracked)
+**/migrations/*.py
+!**/migrations/__init__.py
